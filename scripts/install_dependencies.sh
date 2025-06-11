@@ -1,4 +1,5 @@
 #!/bin/bash
+
 sudo yum install tomcat -y
 sudo yum -y install httpd
 sudo cat << EOF > /etc/httpd/conf.d/tomcat_manager.conf
